@@ -4,8 +4,9 @@ Hello World!
 - Bullet
 - Point
 - **Bold Text** *Italicized Text*
-[Link](https://mnohem.github.io/cse15l-lab-reports/test.html)
-![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2Zj3WtIb3-iFQjAqYJbnlwHaFA%26pid%3DApi&f=1)
+[Lab Report 1 try 1](lab-report-1-week-2.html)\n
+[Lab Report 1 try 2](https://mnohem.github.io/cse15l-lab-reports/lab-report-1-week-2.html)\n
+![Image](hlab-report-1-week-2.htmlttps://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2Zj3WtIb3-iFQjAqYJbnlwHaFA%26pid%3DApi&f=1)
 > Block
 > Block
 > Block
