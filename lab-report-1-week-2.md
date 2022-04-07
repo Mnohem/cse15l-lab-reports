@@ -1,1 +1,1 @@
-![Screenshot](screenshot-2022-04-07-12:59:53.png)
+![Screenshot](https://github.com/Mnohem/cse15l-lab-reports/blob/main/screenshot-2022-04-07-12:59:53.png)
