@@ -2,7 +2,7 @@
 [The repository we reviewed](https://github.com/AllKeng/markdown-parser)
 ## First Snippet
 - This test should output `[google.com]`
-- ``` java
+```
 @Test
 public void snippet1Test() throws IOException {
 	MarkdownParse mdp = new MarkdownParse();
@@ -12,13 +12,13 @@ public void snippet1Test() throws IOException {
 	assertEquals(List.of("google.com"), links);
 }
 ```
-- My implementation fails: ![fail]()
-- The reviewed implementation fails: ![fail]()
+- My implementation fails: ![fail](https://raw.githubusercontent.com/Mnohem/cse15l-lab-reports/main/images/my-snippet1-error.png)
+- The reviewed implementation fails: ![fail](https://raw.githubusercontent.com/Mnohem/cse15l-lab-reports/main/images/rev-snippet1-error.png)
 
 
 ## Second Snippet
 - This test should output `[b.com, a.com(()), example.com]`
-- ``` java
+```
 @Test
 public void snippet2Test() throws IOException {
 	MarkdownParse mdp = new MarkdownParse();
@@ -28,13 +28,13 @@ public void snippet2Test() throws IOException {
 	assertEquals(List.of("b.com", "a.com(())", "example.com"), links);
 }
 ```
-- My implementation fails: ![fail]()
-- The reviewed implementation fails: ![fail]()
+- My implementation fails: ![fail](https://raw.githubusercontent.com/Mnohem/cse15l-lab-reports/main/images/my-snippet2-error.png)
+- The reviewed implementation fails: ![fail](https://raw.githubusercontent.com/Mnohem/cse15l-lab-reports/main/images/rev-snippet2-error.png)
 
 
 ## Third Snippet
 - This test should output `[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`
-- ``` java
+```
 @Test
 public void snippet3Test() throws IOException {
 	MarkdownParse mdp = new MarkdownParse();
@@ -44,8 +44,8 @@ public void snippet3Test() throws IOException {
 	assertEquals(List.of("https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"), links);
 }
 ```
-- My implementation fails: ![fail]()
-- The reviewed implementation fails: ![fail]()
+- My implementation fails: ![fail](https://raw.githubusercontent.com/Mnohem/cse15l-lab-reports/main/images/my-snippet3-error.png)
+- The reviewed implementation fails: ![fail](https://raw.githubusercontent.com/Mnohem/cse15l-lab-reports/main/images/rev-snippet3-error.png)
 
 # Questions
 - I don't think there is a simple change to correct the behavior with inline code using backticks. This is because there would have to be a lot of corrections in order to account for the formatting conflicts that would occur.
