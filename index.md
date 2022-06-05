@@ -3,3 +3,4 @@
 - Week 4:[Lab Report 2](lr2w4.html)
 - Week 6:[Lab Report 3](lr3w6.html)
 - Week 8:[Lab Report 4](lr4w8.html)
+- Week 10:[Lab Report 5](lr5w10.html)
